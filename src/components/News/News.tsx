@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import NewsArticle from "./NewsArticle";
 // import shortclip from "../../Assets/videos/";
 import { articles } from "./data";
+import Article from "./Article";
 
 const News = () => {
   const [show, setShow] = useState(0);
@@ -32,7 +33,7 @@ const News = () => {
             [&::-webkit-scrollbar-thumb]:rounded-full
            [&::-webkit-scrollbar-track]:bg-neutral-700
            [&::-webkit-scrollbar-thumb]:bg-neutral-600">
-          {/* <Article articles={articles[show]} id={id} /> */}
+          <Article articles={articles[show]} id={id} />
         </div>
         {/* {showVideo ? (
           <div className="w-full h-full">
