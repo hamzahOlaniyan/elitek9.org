@@ -1,10 +1,24 @@
+import HeroHome from "@/components/Hero/HeroHome";
+import ProtectionSection from "@/components/ProtectionSection/ProtectionSection";
+import { MediaQuery } from "@/components/utils/MediaQuery";
+import PageLayout from "@/components/utils/PageLayout";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-     
-         <h1 className="text-3xl">elite k9</h1>
-     
-    </div>
+    <PageLayout>
+      <HeroHome />
+      <MediaQuery>
+        <div className="space-y-28 mt-12">
+          {/* <News /> */}
+          {/* <Service /> */}
+        </div>
+      </MediaQuery>
+      <div className="mt-28 space-y-28">
+        {/* <Map /> */}
+        {/* <WhyChoose /> */}
+      </div>
+      <ProtectionSection />
+      {/* <Testimony /> */}
+    </PageLayout>
   );
 }
