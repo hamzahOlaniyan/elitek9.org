@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 import { Pagination, Navigation } from 'swiper/modules';
 import { MediaQuery } from '../utils/MediaQuery';
 import Heading from '../utils/Heading';
-// import { testimonies } from './data';
 import { Card } from './Card';
 import { testimonies } from './data';
 

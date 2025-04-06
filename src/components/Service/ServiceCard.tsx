@@ -1,21 +1,21 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from "next/image";
-// import img1 from "./img/guard-dog1.jpg";
-// import img2 from "./img/obedience.jpg";
-// import img3 from "./img/imprintingibz.jpg";
+import img1 from "./img/guard-dog1.jpg";
+import img2 from "./img/obedience.jpg";
+import img3 from "./img/imprintingibz.jpg";
 
-// const service = [
-//     { title: "Guarding Dog Training", img: img1 },
-//     { title: "Obedience Training", img: img2 },
-//     { title: "Puppy Imprinting", img: img3 },
-// ];
+const service = [
+    { title: "Guarding Dog Training", img: img1 },
+    { title: "Obedience Training", img: img2 },
+    { title: "Puppy Imprinting", img: img3 },
+];
 
 
 export const ServiceCard = () => {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 my-12">
-            {/* {service.map((item: any, i: number) => (
+            {service.map((item: any, i: number) => (
                 <Link
                     key={i}
                     href={"/Dog_Training"}
@@ -36,7 +36,7 @@ export const ServiceCard = () => {
                         </h2>
                     </div>
                 </Link>
-            ))} */}
+            ))}
         </div>
     )
 }

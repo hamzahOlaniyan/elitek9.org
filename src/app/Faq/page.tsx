@@ -17,7 +17,7 @@ const Faq = () => {
   return (
     <PageLayout>
       <MediaQuery>
-        <div className="mt-32 sm:mt-12">
+        <div className="pt-18 sm:mt-12">
           <Heading heading="faq" />
           <div className="my-6">
             {qandA.map((item: any, i: number) => (

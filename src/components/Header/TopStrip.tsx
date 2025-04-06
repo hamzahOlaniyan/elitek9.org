@@ -15,16 +15,16 @@ export const TopStrip = () => {
                     </strong>
                     <div className="hidden sm:flex items-center gap-1">
                         <a href="https://www.instagram.com/elitek9worldwide/?igshid=1nda2zqnahtl3">
-                            <AiFillInstagram className="hover:bg-yellow-500 rounded-md active:scale-95" />
+                            <AiFillInstagram className="hover:bg-yellow-500 rounded-md active:scale-95 w-6 h-6" />
                         </a>
                         <a href="https://www.youtube.com/channel/UCNleC5A1XMzovfinK7PXk7g">
-                            <AiFillYoutube className="hover:bg-yellow-500 rounded-md active:scale-95" />
+                            <AiFillYoutube className="hover:bg-yellow-500 rounded-md active:scale-95 w-6 h-6" />
                         </a>
                         <a href="https://www.tiktok.com/@elitek9international?_t=ZM-8uiWSel48Ck&_r=1">
-                            <AiFillTikTok className="hover:bg-yellow-500 rounded-md active:scale-95" />
+                            <AiFillTikTok className="hover:bg-yellow-500 rounded-md active:scale-95 w-6 h-6" />
                         </a>
                         <a href="https://www.facebook.com/share/1BQJiG27cF/">
-                            <CgFacebook className="hover:bg-yellow-500 rounded-md active:scale-95" />
+                            <CgFacebook className="hover:bg-yellow-500 rounded-md active:scale-95 w-6 h-6" />
                         </a>
                         <p className="text-xs font-semibold">@elitek9worldwide</p>
                         <div className="flex items-center">
