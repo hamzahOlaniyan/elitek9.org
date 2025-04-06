@@ -1,6 +1,7 @@
 import HeroHome from "@/components/Hero/HeroHome";
 import News from "@/components/News/News";
 import ProtectionSection from "@/components/ProtectionSection/ProtectionSection";
+import { Testimony } from "@/components/Testimony/Testimony";
 import { MediaQuery } from "@/components/utils/MediaQuery";
 import PageLayout from "@/components/utils/PageLayout";
 
@@ -19,7 +20,7 @@ export default function Home() {
         {/* <WhyChoose /> */}
       </div>
       <ProtectionSection />
-      {/* <Testimony /> */}
+      <Testimony />
     </PageLayout>
   );
 }

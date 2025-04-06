@@ -7,10 +7,10 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import { Pagination, Navigation } from 'swiper/modules';
-import { testimonies } from './data'
-import { Card } from './Card';
 import { MediaQuery } from '../utils/MediaQuery';
 import Heading from '../utils/Heading';
+import { testimonies } from './data';
+import { Card } from './Card';
 
 export const Testimony = () => {
     return (
