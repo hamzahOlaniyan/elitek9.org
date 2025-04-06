@@ -1,4 +1,5 @@
 import HeroHome from "@/components/Hero/HeroHome";
+import News from "@/components/News/News";
 import ProtectionSection from "@/components/ProtectionSection/ProtectionSection";
 import { MediaQuery } from "@/components/utils/MediaQuery";
 import PageLayout from "@/components/utils/PageLayout";
@@ -9,7 +10,7 @@ export default function Home() {
       <HeroHome />
       <MediaQuery>
         <div className="space-y-28 mt-12">
-          {/* <News /> */}
+          <News />
           {/* <Service /> */}
         </div>
       </MediaQuery>
