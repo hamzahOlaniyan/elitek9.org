@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "../components/Footer/Footer";
-// import Header from "../components/Header/Header";
-// import WhatsApp from "../components/utils/WhatsApp";
+import Header from "@/components/Header/Header";
+import WhatsApp from "@/components/utils/WhatsApp";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,10 +27,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.className} m-0 p-0 text-neutral-200 transition-all duration-200 antialiased bg-background font-[95%] md:font-[98%] lg:font-[100%] `}>
-        {/* <Header /> */}
+        <Header />
         {children}
         <Footer />
-        {/* <WhatsApp /> */}
+        <WhatsApp />
       </body>
     </html>
   );
