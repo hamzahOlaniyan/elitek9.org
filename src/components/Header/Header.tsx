@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <nav className="w-full fixed top-0 z-[50] shadow-md shadow-neutral-900">
       <TopStrip />
-      <div className="py-2 bg-theme_dark">
+      <div className="py-2 bg-[#0f0f0f]">
         <MediaQuery>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
