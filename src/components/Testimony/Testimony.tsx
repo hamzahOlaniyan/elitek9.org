@@ -11,6 +11,7 @@ import { MediaQuery } from '../utils/MediaQuery';
 import Heading from '../utils/Heading';
 // import { testimonies } from './data';
 import { Card } from './Card';
+import { testimonies } from './data';
 
 export const Testimony = () => {
     return (
@@ -39,11 +40,11 @@ export const Testimony = () => {
                         modules={[Pagination]}
                         className="swiper_testi"
                     >
-                        {/* {testimonies.map((item: any, idx: number) => (
+                        {testimonies.map((item: any, idx: number) => (
                             <SwiperSlide key={idx} className='swiper-slide-testi'>
                                 <Card items={item} />
                             </SwiperSlide>
-                        ))} */}
+                        ))}
                     </Swiper>
                 </div>
             </MediaQuery>

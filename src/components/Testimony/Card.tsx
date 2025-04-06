@@ -12,11 +12,11 @@ export const Card = ({ items }: { items: any }) => {
         <div className="w-full space-y-2 p-4 shadow-md overflow-hidden shadow-neutral-900 bg-neutral-900 rounded-md">
             <div className="w-full flex gap-2">
                 <div className="w-16 h-16 rounded-full relative overflow-hidden flex-shrink-0">
-                    {/* <Image
+                    <Image
                         src={items?.img}
                         alt="quotes"
                         className="object-cover object-center h-full w-full"
-                    /> */}
+                    />
                 </div>
                 <div className="">
                     <h3 className="text-md">{items?.name}</h3>
