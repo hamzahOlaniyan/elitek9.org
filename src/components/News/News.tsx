@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import NewsArticle from "./NewsArticle";
 // import shortclip from "../../Assets/videos/";
-// import { articles } from "./data";
+import { articles } from "./data";
 
 const News = () => {
   const [show, setShow] = useState(0);
@@ -20,11 +20,11 @@ const News = () => {
         <div className="bg-neutral-900 py-2 rounded-sm ">
           <h1 className="uppercase font-semibold  text-white px-1">news</h1>
         </div>
-        {/* <NewsArticle
+        <NewsArticle
           articles={articles}
           handleShowArticle={handleShowArticle}
           id={id}
-        /> */}
+        />
       </div>
       <div className="bg-neutral-900 p-2 shadow-inner shadow-inner-black rounded-lg">
         <div className="h-[20rem] p-2 overflow-scroll overflow-x-hidden [&::-webkit-scrollbar]:w-1
